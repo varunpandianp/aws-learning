@@ -144,7 +144,7 @@ EC2 user data supplies launch-time configuration instructions. On many Linux AMI
 7. Expand **Advanced details** and locate **User data**.
 8. Paste the script below, review settings, and launch.
 9. Wait for Running and successful status checks.
-10. Open `http://PUBLIC_IPV4_ADDRESS`.
+10. Open `http://PUBLIC_IPV4_ADDRESS`. aws ec2 server 
 
 ### Amazon Linux 2023 user-data script
 
@@ -152,7 +152,7 @@ EC2 user data supplies launch-time configuration instructions. On many Linux AMI
 #!/bin/bash
 set -euxo pipefail
 
-dnf install -y httpd
+yum install -y httpd
 systemctl enable --now httpd
 
 cat > /var/www/html/index.html <<'HTML'
