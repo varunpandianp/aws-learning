@@ -1244,16 +1244,3 @@ sudo mount -a
 - Persistent EFS mounting through `/etc/fstab`.
 - Troubleshooting and scenario-based AWS storage questions.
 
-### Suggested Filename
-
-```text
-interview-questions.md
-```
-
-### Suggested Git Commit
-
-```bash
-git add interview-questions.md
-git commit -m "Add AWS EBS and EFS interview questions"
-git push
-```

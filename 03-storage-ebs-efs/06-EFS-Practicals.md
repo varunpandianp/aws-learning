@@ -1112,18 +1112,6 @@ rpm -q amazon-efs-utils
 
 **Note:** Replace the example EFS file system ID with your real ID. Run the appropriate package installation command for your Amazon Linux version.
 
-### Suggested Filename
-
-```text
-aws-efs-shared-storage-practical.md
-```
-
-### Suggested Git Commit
-
-```bash
-git add aws-efs-shared-storage-practical.md
-git commit -m "Add AWS EFS shared storage practical notes"
-git push
 ```
 
 ---

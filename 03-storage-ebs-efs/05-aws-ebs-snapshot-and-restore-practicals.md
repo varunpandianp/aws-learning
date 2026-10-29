@@ -836,16 +836,3 @@ findmnt
 
 **Note:** Replace the example device names with the actual device names identified on your EC2 instance.
 
-## Suggested Filename
-
-```text
-aws-ebs-snapshot-and-restore-practicals.md
-```
-
-## Suggested Git Commit
-
-```bash
-git add aws-ebs-snapshot-and-restore-practicals.md
-git commit -m "Add AWS EBS snapshot and restore practical notes"
-git push
-```
